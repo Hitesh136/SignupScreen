@@ -80,13 +80,11 @@ struct AppTextField: View {
                 .frame(height: 1)
                 .padding(.top, 0)
             
-            if errorMessage != nil {
-                Text(errorMessage!)
-                    .foregroundColor(redColor)
-                    .font(.caption)
-            }
-            
+            Text(errorMessage ?? "")
+                .foregroundColor(redColor)
+                .font(.caption)
         }
+        
     }
 }
 //
