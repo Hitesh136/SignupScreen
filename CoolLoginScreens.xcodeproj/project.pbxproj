@@ -18,6 +18,7 @@
 		FF6E957323EF27FE001E9C24 /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E957223EF27FE001E9C24 /* Temp.swift */; };
 		FF6E957523EFD5B6001E9C24 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E957423EFD5B6001E9C24 /* UserViewModel.swift */; };
 		FF6E957723EFD8BA001E9C24 /* PasswordStrength.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6E957623EFD8BA001E9C24 /* PasswordStrength.swift */; };
+		FF6E957923F13338001E9C24 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = FF6E957823F13338001E9C24 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		FF6E957223EF27FE001E9C24 /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
 		FF6E957423EFD5B6001E9C24 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		FF6E957623EFD8BA001E9C24 /* PasswordStrength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStrength.swift; sourceTree = "<group>"; };
+		FF6E957823F13338001E9C24 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		FF6E955623EEE793001E9C24 /* CoolLoginScreens */ = {
 			isa = PBXGroup;
 			children = (
+				FF6E957823F13338001E9C24 /* demo.gif */,
 				FF6E955723EEE793001E9C24 /* AppDelegate.swift */,
 				FF6E955923EEE793001E9C24 /* SceneDelegate.swift */,
 				FF6E957423EFD5B6001E9C24 /* UserViewModel.swift */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF6E956723EEE795001E9C24 /* LaunchScreen.storyboard in Resources */,
+				FF6E957923F13338001E9C24 /* demo.gif in Resources */,
 				FF6E956423EEE795001E9C24 /* Preview Assets.xcassets in Resources */,
 				FF6E956123EEE795001E9C24 /* Assets.xcassets in Resources */,
 			);

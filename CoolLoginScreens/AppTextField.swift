@@ -66,6 +66,7 @@ struct AppTextField: View {
                     TextField(placeHolder, text: $contentText)
                         .foregroundColor(.white)
                         .font(.headline)
+                        .autocapitalization(UITextAutocapitalizationType.none)
                 }
                 Spacer()
                 
@@ -97,7 +98,6 @@ struct AppTextField_Previews: PreviewProvider {
     
     @State static var userNameValidator: UsernameValidation? = nil
     @State static var passwordValidator: PasswordValidation? = nil
-//    @State static var validationStatus: FormValidator = .password(PasswordValidation.weak)
     static var previews: some View {
         ZStack {
             Color.blue

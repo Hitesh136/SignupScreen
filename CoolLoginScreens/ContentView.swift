@@ -69,12 +69,9 @@ struct ContentView: View {
                 createAccountView
                 Spacer()
                 
-                VStack {
-                    
-                    bottomTextView
-                        .padding(.top, 20)
-                        .padding(.bottom, 10)
-                }
+                bottomTextView
+                    .padding(.top, 20)
+                    .padding(.bottom, 10)
             }
             .padding(.horizontal, 20)
             
@@ -147,7 +144,7 @@ extension ContentView {
     }
     
     var bottomTextView: some View {
-        Text("By tapping continue Create you agree to Brand's Terms of Service and Privacy Policy")
+        Text("By tapping continue you agree to Brand's Terms of Service and Privacy Policy")
             .multilineTextAlignment(.center)
             .foregroundColor(.white)
             .font(.caption)

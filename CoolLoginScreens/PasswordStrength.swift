@@ -72,18 +72,4 @@ public enum UsernameValidation {
             return nil
         }
     }
-}
-
-public enum FormValidator {
-    case username(UsernameValidation)
-    case password(PasswordValidation)
-    
-    var errorMessage: String? {
-        switch self {
-        case .username(let usernameValidator):
-            return usernameValidator.errorMessage
-        case .password(let passwordValidator):
-            return passwordValidator.errorMessage
-        }
-    }
-}
+} 
